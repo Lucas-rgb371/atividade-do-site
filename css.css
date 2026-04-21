@@ -1,0 +1,189 @@
+* { margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .nav {
+    display: inline-block;
+    width: 4.5%;
+    
+  }
+  
+  header ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  header {
+    padding: 10px 0;
+  }
+  
+  .nav-logo {
+    width: 20%;
+    vertical-align: middle;
+  }
+  
+  .nav-logo img {
+    width: 68.81px;
+    height: 79.38px;
+  }
+  
+  .nav-link {
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+  }
+
+  li a{
+    color: black;
+    text-decoration: none;
+  }
+  
+  #sec01 {
+    height: 78vh;
+    background-image: url(header-bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+  }
+  
+  #roof {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  
+    p {
+        color: white;
+        font-size: 72px;
+        letter-spacing: 10.8px;
+        font-weight: 500;
+        font-family: "Playfair Display", serif;
+    }
+    span {
+      color: white;
+      font-size: 22px;
+      letter-spacing: 1px;
+      font-weight: 30;
+      font-family: "Playfair Display", serif;
+  }
+}
+
+.menu_esquerda p {
+  font: "roboto", sans-serif;
+  font-size: 50px;
+  letter-spacing: 1.8;
+  margin-top: 50%;
+text-align: left;
+
+
+
+}
+
+.menu_esquerda{ width: 49%;
+  
+display: inline-block;}
+
+.menu_direita{ width: 49%;
+  
+  display: inline-block;}
+
+.menu {
+  width: 65%;
+  margin: auto;
+}
+.texto{
+  height: 90px;
+  display: inline-block;
+  font: "roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 400px;
+  color: #777777;
+  
+  
+}
+
+.botao{
+  background-color: #ad9966;
+  color: white;
+border: 0cm;
+letter-spacing: 2px;
+padding: 15px;
+
+}
+#view{
+  position: fixed;
+  top: 40%;
+  left: 0;
+  background-image: url(view-menu-bg.png);
+  height: 180px;
+  width: 90px;
+  vertical-align: middle;
+}
+
+#view2{
+  position: fixed;
+  top: 48.3%;
+  left: 0%;
+  width: 92px;
+  height: 180px;
+  font-size: small;
+  transition: 0.5s;
+
+  display: inline-block;
+
+}
+ 
+#view3{
+  position: fixed;
+  top: 40%;
+  right: 0;
+  background-image: url(book-table-bg.png);
+  height: 180px;
+  width: 90px;
+  vertical-align: middle;
+}
+#view4{
+  position: fixed;
+  top: 48.3%;
+  right: 0%;
+  font-size: small;
+color: white;
+  
+}
+#view2:hover a{
+  transform: rotate(90deg);
+}
+
+.menu{
+  margin-bottom: 20px;
+  font-size: 30px;
+  line-height: 1.5;
+  align-items: center;
+  font-family: inherit;
+}
+
+.menu{
+  position: relative;
+  height: 700px;
+}
+
+.menu_esquerda{
+  position: absolute;
+  left: 50px;
+  top: 100px;
+  width: 35%;
+}
+
+.menu_esquerda h1{
+  font-family: "playfair display", serif;
+  
+}
